@@ -1,0 +1,19 @@
+.study-design.block{
+	
+    padding: 40px 48px 56px 48px;
+    background-color: #ebefee;
+	line-height: 24px;
+	color: #3c4242;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+h2.headings{
+color: #830051;
+    font-family: lexia-variable, sans-serif;
+    font-weight: 600;
+    line-height: 137.5%;
+    letter-spacing: -0.0125em;
+    font-size: 37px;
+}

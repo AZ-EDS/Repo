@@ -1,0 +1,25 @@
+.banner.block{
+	background: #003864;
+	color: #fff;
+	padding: 56px 48px 56px 48px;
+	text-align: center;
+	font-family: lexia-variable, sans-serif;
+}
+.banner-1{
+	margin: 0;
+    font-size: 44px;
+    line-height: 137.5%;
+    letter-spacing: -0.0125em;
+    font-weight: normal;
+}
+	
+.banner-2{
+	padding-top: 24px;
+    max-width: 640px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Inter, Arial, sans-serif;
+    line-height: 150%;
+    font-size: 16px;
+    letter-spacing: 0em;
+}

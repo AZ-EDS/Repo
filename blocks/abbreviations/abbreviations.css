@@ -1,0 +1,86 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+.section.abbreviations-container.references-container{
+	background-color: #f8f8f8;
+    padding: 56px 48px 56px 48px;
+    height: 100%;
+	line-height: 8px;
+}
+
+.abbreviation-div {
+	display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 24px;
+    margin-left: 15px;
+}
+
+span.abb-even {
+    display: inline-block;
+    background-color: #ccd7e0;
+    width: 18%;
+    padding: 4px 8px;
+    text-overflow: ellipsis;    
+	font-family: Inter, Arial, sans-serif;
+    font-size: medium;
+    line-height: 150%;
+    letter-spacing: 0em;
+   
+}
+
+span.abb-odd{
+    background-color: #ebecec;
+    display: inline-flex;
+    padding: 4px 19px;
+    color: #2c3030;
+    width: 67%;
+	font-family: Inter, Arial, sans-serif;
+    font-size: medium;
+    line-height: 150%;
+    letter-spacing: 0em;
+    
+	
+}
+
+button.accordion-button{
+
+    display: flex;
+    padding: 16px 16px;
+    align-items: center;
+    gap: 950px;
+    border: none;
+    background: none;
+	cursor: pointer;
+	text-align: left;
+	margin-left: 9px;
+}
+
+span.accordion-title {
+	
+	font-size: 22px;
+    font-family: Inter, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 137.5%;
+    color: #830051;
+	margin-left: -16px;
+}
+
+.fa-chevron-down:before {
+	font-size: x-large;
+	color: #830051;
+}
+
+.abbreviations.block {
+	margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+	/*height:61px;*/
+    background-color: #fff;
+	
+}
+
+.fa-chevron-up:before {
+	font-size: x-large;
+	color: #830051;
+}
